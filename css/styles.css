@@ -1,7 +1,16 @@
+.jumbotron {
+  background-color: darkgrey;
+}
 .jumbotron h1{
+  font-family: 'Creepster', cursive;
   font-weight: 700;
+  font-size: 50px;
   color: blue;
-  text-shadow: -7px 5px 4px red;
+  text-shadow: -7px 5px 4px white;
+}
+
+.jumbotron h1:hover {
+  text-align: right;
 }
 
 .jumbotron p{
