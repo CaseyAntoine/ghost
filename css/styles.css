@@ -109,3 +109,10 @@
   color: darkred;
   background-color: red;
 }
+
+footer {
+  margin-top: 25px;
+  background-color: #eee;
+  width: 100%;
+  padding: 20px 10px;
+}
