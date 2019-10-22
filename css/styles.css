@@ -1,0 +1,64 @@
+.jumbotron h1{
+  font-weight: 700;
+  color: blue;
+  text-shadow: -7px 5px 4px red;
+}
+
+.jumbotron p{
+  text-align: center;
+}
+
+#yikes{
+  font-family: fantasy;
+  font-weight: 900;
+}
+
+#yikes:hover{
+  font-family: 'Creepster', cursive;
+  font-size: 25px;
+  color: green;
+
+}
+
+.banner {
+  width: 100%;
+  height: 575px;
+  border: 1px solid black;
+  background-image: url("images/kingboo1.png");
+  background-color: #ccc;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#initially-showing img{
+  opacity: 0.05;
+  /* margin: 0 auto; */
+}
+
+#initially-showing {
+  /* margin: 0 auto; */
+  /* border: 1px solid black; */
+  text-align: center;
+  font-size: 11px;
+  display: block;
+}
+
+.clickable {
+  font-style: italic;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.clickable:hover {
+  color: darkblue;
+  font-family: 'Modak', cursive;
+  font-weight: lighter;
+  cursor: pointer;
+}
+
+.initially-hidden {
+  display: none;
+  text-align: center;
+
+}
