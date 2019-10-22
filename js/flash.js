@@ -1,5 +1,6 @@
 $(document).ready(function(){
-  $("td").click(function(){
-    $("td").children('td').last().toggle();
+  $("tr").children("td").first().click(function(){
+
+    $("p").toggle();
   });
 });
